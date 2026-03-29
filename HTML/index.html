@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomato Clone - Premium Edition</title>
+    <link rel="icon" href="Zomato_logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/CSS/stylesheet.css">
+</head>
+<body>
+    <header>
+        <div class="header-image">
+            <img src="food-1024x683.jpg" alt="Background Food Image">
+        </div>
+        <div class="header-content">
+            <div class="nav">
+                <div>
+                    <a href="https://www.zomato.com/mobile">Get The App</a>
+                </div>
+                <ul class="nav-bar">
+                    <li><a href="https://www.zomato.com/investor-relations">Investor Relations</a></li>
+                    <li><a href="https://www.zomato.com/partner-with-us/new/">Add Restaurant</a></li>
+                    <li><a href="https://www.zomato.com/">Log In</a></li>
+                    <li><a href="https://www.zomato.com/">Sign In</a></li>
+                </ul>
+            </div>
+            <div class="head">
+                <img class="logo" src="https://b.zmtcdn.com/web_assets/8313a97515fcb0447d2d77c276532a511583262271.png" alt="Zomato Logo">
+                <h3>Discover the best food & drinks in Delhi</h3>
+                <div class="search">
+                    <div class="location-box">
+                        <i class="fa-solid fa-location-dot hello"></i>
+                        <input type="text" class="location-input" value="Ywca,1,Ashoka Rd,Hanu" placeholder="Delhi NCR">
+                        <i class="fa-solid fa-caret-down caret"></i>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="search-box">
+                        <i class="fa-solid fa-magnifying-glass fellow"></i>
+                        <input type="text" class="dish-input" id="dishInput" placeholder="Search for restaurant, cuisine or a dish">
+                    </div>
+                    <!-- JS Autocomplete Dropdown -->
+                    <div class="search-dropdown" id="searchDropdown"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="sec-1">
+        <div class="box">
+            <a href="#" style="display: block; width: 100%; height: 100%;">
+                <img src="food-1024x683.jpg" alt="Order Food">
+                <div class="white">
+                    <p>Order Food Online</p>
+                </div>
+            </a>
+        </div>
+        <div class="box">
+            <a href="#" style="display: block; width: 100%; height: 100%;">
+                <img src="meals.avif" alt="Go out for a meal">
+                <div class="white">
+                    <p>Go out for a meal</p>
+                </div>
+            </a>
+        </div>
+        <div class="box">
+            <a href="#" style="display: block; width: 100%; height: 100%;">
+                <img src="DSC_8417.jpeg" alt="Zomato Pro">
+                <div class="white">
+                    <p>Zomato Pro</p>
+                </div>
+            </a>
+        </div>
+        <div class="box">
+            <a href="#" style="display: block; width: 100%; height: 100%;">
+                <img src="aman-bassonpoul-hoshiarpur-night-clubs-crezf4ks5s.avif" alt="Nightlife & Clubs">
+                <div class="white">
+                    <p>Nightlife & Clubs</p>
+                </div>
+            </a>
+        </div>
+    </section>
+    
+    <section class="middle">
+        <div class="sec-2">
+            <h2>Collection</h2>
+            <div>
+                 <h6>Explore curated lists of top restaurants, cafes, pubs, and bars in Delhi NCR, based on trends</h6>
+                 <a href="https://www.zomato.com/ncr/collections" class="collection-link" style="color: var(--primary); font-size: 1rem; font-weight: 500;">All collections in Delhi NCR &nbsp;<i class="fa-solid fa-caret-right"></i></a>
+           </div>
+        </div>
+        <div class="sec-3">
+            <div class="box1">
+                <a href="#" style="display: block; width: 100%; height: 100%;">
+                    <img src="newly opened restants.jpg" alt="Newly Opened">
+                    <div class="black">Newly Opened <br> 17 Places <i class="fa-solid fa-caret-right"></i></div>
+                </a>
+            </div>
+            <div class="box1">
+                <a href="#" style="display: block; width: 100%; height: 100%;">
+                    <img src="trend20241028055104.jpg" alt="Trending">
+                    <div class="black">Trending This Week <br> 30 Places <i class="fa-solid fa-caret-right"></i></div>
+                </a>
+            </div>
+            <div class="box1">
+                <a href="#" style="display: block; width: 100%; height: 100%;">
+                    <img src="best of delhi in ncr.jpg" alt="Best Of Delhi">
+                    <div class="black">Best Of Delhi NCR <br> 170 Places <i class="fa-solid fa-caret-right"></i></div>
+                </a>
+            </div>
+            <div class="box1">
+                <a href="#" style="display: block; width: 100%; height: 100%;">
+                    <img src="best cafes in delhi.webp" alt="Great Cafes">
+                    <div class="black">Great Cafes <br> 28 Places <i class="fa-solid fa-caret-right"></i></div>
+                </a>
+            </div>
+        </div>
+        
+        <h1>Popular localities in and around <strong>Delhi NCR</strong></h1>
+        <div class="sec-4">
+            <div class="box-2">
+                <div><span><a href="https://www.zomato.com/ncr/connaught-place-delhi-restaurants">Connaught Place</a></span> <i class="fas fa-chevron-right"></i></div>
+            </div>
+            <div class="box-2">
+                <div><span><a href="https://www.zomato.com/ncr/sector-29-gurgaon-gurugram-restaurants">Sector 29</a></span> <i class="fas fa-chevron-right"></i></div>
+            </div>
+            <div class="box-2">
+                <div><span><a href="https://www.zomato.com/ncr/sector-18-noida-restaurants">Sector 18, Noida</a></span> <i class="fas fa-chevron-right"></i></div>
+            </div>
+            <div class="box-2">
+                <div><span><a href="https://www.zomato.com/ncr/rajouri-garden-delhi-restaurants">Rajouri Garden</a></span> <i class="fas fa-chevron-right"></i></div>
+            </div>
+            <div class="box-2">
+                <div><span><a href="https://www.zomato.com/ncr/saket-delhi-restaurants">Saket</a></span> <i class="fas fa-chevron-right"></i></div>
+            </div>
+            <div class="box-2">
+                <div><span><a href="https://www.zomato.com/ncr/dlf-cyber-city-restaurants">DLF Cyber City</a></span> <i class="fas fa-chevron-right"></i></div>
+            </div>
+            <div class="box-2">
+                <div><span><a href="https://www.zomato.com/ncr/golf-course-road-restaurants">Golf Course Road</a></span> <i class="fas fa-chevron-right"></i></div>
+            </div>
+            <div class="box-2">
+                <div><span><a href="https://www.zomato.com/ncr/dlf-phase-4-restaurants">DLF Phase 4</a></span> <i class="fas fa-chevron-right"></i></div>
+            </div>
+            <div class="box-2">
+                <div><span><a href="https://www.zomato.com/ncr">See More</a></span> <i class="fas fa-chevron-right"></i></div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="sec-5">
+        <div class="contact">
+            <img src="contact pict.avif" alt="Get the App">
+            <div class="address">
+                <h2>Get The Zomato App</h2>
+                <p>We will send you a link, open it on your phone to download the app</p>
+                
+                <div class="radio">
+                    <div>
+                        <input type="radio" name="fill" id="email" checked>
+                        <label for="email">Email</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="phone" name="fill">
+                        <label for="phone">Phone</label>
+                    </div>
+                </div>
+                
+                <div class="email">
+                    <input type="text" class="input" placeholder="Email">
+                    <button>Share App Link</button>
+                </div>
+                
+                <p class="download">Download App From</p>
+                <div class="app">
+                    <a href="https://play.google.com/store/apps/details?id=com.application.zomato"><img src="playstore link.webp" alt="Play Store"></a>
+                    <a href="https://apps.apple.com/in/app/zomato-food-delivery-dining/id434613896"><img src="app store link.webp" alt="App Store"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="end">
+        <div>
+            <h1>Explore other options near me</h1>
+            <h4>Popular Cuisines Near Me</h4>
+            <div>
+                <a href="https://www.zomato.com/bakery-restaurants-near-me">Bakery near me</a> <i class="fas fa-circle"></i>
+                <a href="https://www.zomato.com/beverages-restaurants-near-me">Beverages near me</a> <i class="fas fa-circle"></i>
+                <a href="https://www.zomato.com/biryani-restaurants-near-me">Biryani near me</a> <i class="fas fa-circle"></i>
+                <a href="https://www.zomato.com/coffee-restaurants-near-me">Coffee near me</a> <i class="fas fa-circle"></i>
+                <a href="https://www.zomato.com/burger-restaurants-near-me">Burger near me</a> <i class="fas fa-circle"></i>
+                <a href="https://www.zomato.com/pizza-restaurants-near-me">Pizza near me</a> <i class="fas fa-circle"></i>
+<a href="https://www.zomato.com/rolls-restaurants-near-me">Rolls near me</a> <i class="fas fa-circle"></i>
+                <a href="https://www.zomato.com/">Shake near me</a> <i class="fas fa-circle"></i>
+                <a href="https://www.zomato.com/ncr/restaurants/south-indian">Rayalseema special near me</a> <i class="fas fa-circle"></i>
+                <a href="https://www.zomato.com/ncr/restaurants/biryani">Tadipatri dum biriyani near me</a> <i class="fas fa-circle"></i>
+                <a href="https://www.zomato.com/mithai-restaurants-near-me">Sweets near me</a> <i class="fas fa-circle"></i>
+                <a href="https://www.zomato.com/ncr/restaurants/south-indian">Telangana special near me</a> <i class="fas fa-circle"></i>
+                <a href="https://www.zomato.com/sandwich-restaurants-near-me">Sandwich near me</a> <i class="fas fa-circle"></i>
+                <a href="https://www.zomato.com/north-indian-restaurants-near-me">Indian near me</a>
+            </div>
+        </div>
+        
+        <div>
+            <h4>Popular Restaurant Types Near Me</h4>
+            <div>
+                <a href="https://www.zomato.com/bakeries-near-me">Bakery near me</a> <i class="fas fa-circle"></i>
+                <a href="https://www.zomato.com/bars-near-me">Bars near me</a> <i class="fas fa-circle"></i>
+                <a href="https://www.zomato.com/beverage-shops-near-me">Beverage Shops near me</a> <i class="fas fa-circle"></i>
+                <a href="https://www.zomato.com/cafes-near-me">Cafes near me</a> <i class="fas fa-circle"></i>
+                <a href="https://www.zomato.com/paan-shop-near-me">Paan Shop near me</a> <i class="fas fa-circle"></i>
+                <a href="https://www.zomato.com/pizzerias-near-me">Pizzerias near me</a> <i class="fas fa-circle"></i>
+                <a href="https://www.zomato.com/food-courts-near-me">Food Courts near me</a> <i class="fas fa-circle"></i>
+                <a href="https://www.zomato.com/dhabas-near-me">Dhabas near me</a> <i class="fas fa-circle"></i>
+                <a href="https://www.zomato.com/ncr/restaurants/south-indian">Rayalseema special near me</a> <i class="fas fa-circle"></i>
+                <a href="https://www.zomato.com/ncr/restaurants/biryani">Tadipatri dum biriyani near me</a> <i class="fas fa-circle"></i>
+                <a href="https://www.zomato.com/mithai-restaurants-near-me">Sweets near me</a> <i class="fas fa-circle"></i>
+                <a href="https://www.zomato.com/ncr/restaurants/south-indian">Telangana special near me</a> <i class="fas fa-circle"></i>
+                <a href="https://www.zomato.com/sandwich-restaurants-near-me">Sandwich near me</a> <i class="fas fa-circle"></i>
+                <a href="https://www.zomato.com/north-indian-restaurants-near-me">Indian near me</a>
+            </div>
+        </div>
+        
+        <div>
+            <h4>Top Restaurant Chains</h4>
+            <div>
+                <a href="https://www.zomato.com/ncr/restaurants/btw">BTW</a> <i class="fas fa-circle"></i>
+                <a href="https://www.zomato.com/ncr/restaurants/burger-king">Burger King</a> <i class="fas fa-circle"></i>
+                <a href="https://www.zomato.com/ncr/restaurants/dominos">Domino's</a> <i class="fas fa-circle"></i>
+                <a href="https://www.zomato.com/ncr/restaurants/kfc">KFC</a> <i class="fas fa-circle"></i>
+                <a href="https://www.zomato.com/ncr/restaurants/krispy-kreme">Krispy Kreme</a> <i class="fas fa-circle"></i>
+                <a href="https://www.zomato.com/ncr/restaurants/mcdonalds">McDonald's</a> <i class="fas fa-circle"></i>
+                <a href="https://www.zomato.com/ncr/restaurants/pizza-hut">Pizza Hut</a> <i class="fas fa-circle"></i>
+                <a href="https://www.zomato.com/ncr/restaurants/wow-momo">WOW! Momo</a> <i class="fas fa-circle"></i>
+                <a href="https://www.zomato.com/ncr/restaurants/biryani-blues">Biryani Blues</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="final">
+        <div class="first">
+            <img src="https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png?fit=around|198:42&crop=198:42;*,*" alt="Zomato Logo Footer">
+            <div class="out">
+                <select class="footer-select">
+                    <option value="India">India</option>
+                    <option value="Australia">Australia</option>
+                    <option value="Canada">Canada</option>
+                    <option value="UAE">UAE</option>
+                    <option value="UK">United Kingdom</option>
+                    <option value="USA">USA</option>
+                </select>
+                <select class="footer-select">
+                    <option value="English">English</option>
+                    <option value="Hindi">हिंदी</option>
+                    <option value="Telugu">తెలుగు</option>
+                </select>
+            </div>
+        </div>
+        
+        <div class="second">
+            <div>
+                <h4>ABOUT ZOMATO</h4>
+                <a href="https://www.zomato.com/who-we-are">Who We Are</a>
+                <a href="https://blog.zomato.com/">Blog</a>
+                <a href="https://www.zomato.com/careers">Work With Us</a>
+                <a href="https://www.zomato.com/investor-relations">Investor Relations</a>
+                <a href="https://www.zomato.com/report-fraud">Report Fraud</a>
+                <a href="https://blog.zomato.com/press-kit">Press Kit</a>
+                <a href="https://www.zomato.com/contact">Contact Us</a>
+            </div>
+            <div>
+                <h4>ZOMAVERSE</h4>
+                <a href="https://www.zomato.com/">Zomato</a>
+                <a href="https://www.blinkit.com/">Blinkit</a>
+                <a href="https://www.feedingindia.org/">Feeding India</a>
+                <a href="https://www.hyperpure.com/">Hyperpure</a>
+                <a href="https://www.zomato.com/live">Zomato Live</a>
+                <a href="https://www.zomato.com/zomaland">Zomaland</a>
+                <a href="https://www.weatherunion.com/">Weather Union</a>
+            </div>
+            <div>
+                <h4>FOR RESTAURANTS</h4>
+                <a href="https://www.zomato.com/partner_with_us">Partner With Us</a>
+                <a href="https://play.google.com/store/apps/details?id=com.application.services.partner&hl=en_IN&gl=US">Apps For You</a>
+            </div>
+            <div>
+                <h4>LEARN MORE</h4>
+                <a href="https://www.zomato.com/privacy">Privacy</a>
+                <a href="https://www.zomato.com/security">Security</a>
+                <a href="https://www.zomato.com/conditions">Terms</a>
+            </div>
+            <div>
+                <h4>SOCIAL LINKS</h4>
+                <div class="social-media">
+                    <a href="https://in.linkedin.com/company/zomato"><img src="linked in logo.png" alt="LinkedIn"></a>
+                    <a href="https://www.instagram.com/zomato/"><img src="instagram logo.png" alt="Instagram"></a>
+                    <a href="https://twitter.com/zomato"><img src="twitter logo.png" alt="Twitter"></a>
+                    <a href="https://www.youtube.com/zomato"><img src="youtube logo.png" alt="Youtube"></a>
+                    <a href="https://www.facebook.com/zomato"><img src="fb logo.png" alt="Facebook"></a>
+                </div>
+                <div class="link">
+                    <a href="https://play.google.com/store/apps/details?id=com.application.zomato"><img src="playstore link.webp" alt="Play Store"></a>
+                    <a href="https://apps.apple.com/in/app/zomato-food-delivery-dining/id434613896"><img src="app store link.webp" alt="App Store"></a>
+                </div>
+            </div>
+        </div>
+        
+        <hr>
+        <p class="riya">By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners. 2008-2026 © Zomato™ Ltd. All rights reserved.</p>
+    </section>
+    <script src="/JS/script.js"></script>
+</body>
+</html>
